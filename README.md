@@ -1,26 +1,15 @@
-# Weather Search Tracker 🌤️
+# 🎥 Movie Rental Dashboard
 
-A React-based web application that allows users to fetch real-time weather data for any location using latitude and longitude coordinates. 
+A vibrant, high-contrast React and TypeScript web application built with Bootstrap that processes movie rental data to provide real-time business analytics, interactive genre tracking, and a detailed customer ledger.
 
-## Features
+## ✨ Features
+- **Key Metrics Display:** Dynamic tracking of total returned items, accumulated revenue, and the single highest-value rental transaction.
+- **Genre Analytics:** Interactive performance cards featuring customized icons (🛸, 🎬, ❤️, 🎭) mapping total inventory counts and revenue breakdowns by genre.
+- **Returned Rentals Ledger:** A clean, responsive data table sorting customer transactions, rental durations, and dynamically calculated rental costs.
+- **Vibrant UI Design:** A stylized dark-mode layout optimized with custom neon pink, blue, and purple aesthetic borders.
 
-* **Real-Time Data:** Fetches current weather conditions using the [OpenWeather API](https://openweathermap.org/).
-* **Location Search:** Users can input specific latitude and longitude coordinates to check the weather anywhere in the world.
-* **Default Location:** Automatically loads the current weather for Columbus, OH on the initial render.
-* **Detailed Metrics:** Displays temperature, feels-like temperature, humidity, and general weather conditions.
-* **Error Handling:** Includes graceful loading states and user-friendly error messages for invalid searches or network issues.
-
-## Technologies Used
-
-* **React:** Functional components and hooks (`useState`, `useEffect`) for state management and side effects.
-* **JavaScript / JSX:** Core application logic and UI rendering.
-* **Fetch API:** For handling asynchronous network requests.
-* **CodeSandbox:** Cloud development environment.
-
-## Getting Started
-
-To run this project locally or in your own sandbox environment:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/msbgoins-design/weather-app.git](https://github.com/msbgoins-design/weather-app.git)
+## 🛠️ Technologies Used
+- **React & TypeScript:** Strict type-safe structural architecture using functional components and utility modules.
+- **Bootstrap 5:** Fluid grid containers, responsive layout rows, and stylized ledger tables.
+- **CSS3:** Custom high-contrast layout configurations and neon styling treatments.
+- **CodeSandbox:** Cloud-based development and source synchronization environment.
