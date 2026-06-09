@@ -2,3 +2,57 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-color: #121214;
+  color: #f8f9fa;
+}
+
+.metric-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 2px solid transparent !important;
+}
+
+/* Neon Glow Color Schemes */
+.neon-pink {
+  border-color: #ff007f !important;
+  box-shadow: 0 0 10px rgba(255, 0, 127, 0.2);
+}
+.neon-pink h2 {
+  color: #ff007f;
+}
+
+.neon-blue {
+  border-color: #00f0ff !important;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+}
+.neon-blue h2 {
+  color: #00f0ff;
+}
+
+.neon-purple {
+  border-color: #9d4edd !important;
+  box-shadow: 0 0 10px rgba(157, 78, 221, 0.2);
+}
+.neon-purple h2 {
+  color: #9d4edd;
+}
+
+.neon-orange {
+  border-color: #f77f00 !important;
+  box-shadow: 0 0 10px rgba(247, 127, 0, 0.2);
+}
+.neon-orange h2 {
+  color: #f77f00;
+}
+
+.neon-red {
+  border-color: #ef233c !important;
+  box-shadow: 0 0 10px rgba(239, 35, 60, 0.2);
+}
+.neon-red h2 {
+  color: #ef233c;
+}
+
+.table-dark {
+  background-color: #1e1e24;
+}
